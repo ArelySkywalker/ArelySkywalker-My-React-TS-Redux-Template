@@ -25,3 +25,7 @@ const exampleSlice = createSlice({
 
     },
 });
+
+const { reducer, actions } = exampleSlice;
+// export const { reducerActions } = actions;
+export default exampleSlice;
